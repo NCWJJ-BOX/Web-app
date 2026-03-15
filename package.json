@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:native": "npm --prefix native run start",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
